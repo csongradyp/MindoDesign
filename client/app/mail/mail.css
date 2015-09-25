@@ -1,0 +1,26 @@
+.contact {
+    background: url('../../../assets/images/contact.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px 0 30px 0;
+    height: auto;
+    color: white;
+}
+
+.contact-form {
+	background:rgba(0,0,0,.5);
+	border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+.contact-header {
+    padding-top: 10px;
+    height: 50px;
+}
+
+.contact-details {
+    height: 100px;
+}

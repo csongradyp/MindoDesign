@@ -1,6 +1,8 @@
 'use strict';
 
 angular.module('mindodesignApp')
+  .value('duScrollDuration', 2000)
+  .value('duScrollOffset', 70)
   .controller('NavbarCtrl', function ($scope, $location, $document) {
     $scope.menu = [
      {
@@ -24,6 +26,10 @@ angular.module('mindodesignApp')
       'spy' : 'contact'
     }
     ];
+
+    $scope.scrollToTop = function() {
+      $document.scrollTopAnimated(0, 2000);
+    };
 
     $scope.isCollapsed = true;
 

@@ -1,5 +1,6 @@
-.active {
-    color: red;
+.navbar-brand img {
+    max-width: 120px;
+    margin-top: -7px;
 }
 
 @media screen and (min-width: 768px){
@@ -20,12 +21,13 @@
     }
 
     #custom-nav a.active {
-        color: red;
+        background-color: rgba(100, 32, 61, .8);
+        color: white;
+        border-radius: 10px;
     }
 
-
     #custom-nav a:hover {
-        color: brown;
+        color: rgb(240, 173, 78);
     }
 
     #custom-nav .container {

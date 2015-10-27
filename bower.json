@@ -16,6 +16,7 @@
     "font-awesome": ">=4.1.0",
     "lodash": "~2.4.1",
     "animate-css": "animate-css#~3.4.0",
+    "hover" : "2.0.2",
     "lightbox2" : "2.8.1",
     "jquery-awesome-cursor" : "0.1.2"
   },

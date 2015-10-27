@@ -1,26 +1,53 @@
 .contact {
-    background: url('../../../assets/images/4.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 0px 0 30px 0;
-    height: auto;
-    color: white;
+  background: url('../../../assets/images/love.jpg') no-repeat fixed center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0px 0 30px 0;
+  height: auto;
+  color: black;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
 .contact-form {
-	background:rgba(0,0,0,.5);
-	border-radius: 15px;
-    padding: 10px 10px 10px 10px;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
 }
 
 .contact-header {
-    padding-top: 10px;
-    height: 50px;
+  padding-top: 10px;
+  height: 50px;
 }
 
 .contact-details {
-    height: 100px;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.contact-details a {
+  color: #64203d;
+  font-size: 12pt;
+  padding-left: 10px;
+}
+
+.contact-details span {
+  padding-left: 10px;
+}
+
+.contact-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.heading-contact {
+  font-size: 12pt;
+}
+
+.contact-details .skype-name {
+  font-size: 12pt;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }

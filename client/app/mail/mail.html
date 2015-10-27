@@ -1,73 +1,84 @@
 <section id="contact" class="home-section text-center contact">
-    <div class="heading-contact">
-      <div class="container">
-       <div class="contact-details wow fadeIn">
-        <h1 class="contact-header">Elérhetőségeink:</h1>
-        <div>
-          e-mail:
-          <a href="mailto:info@mindodesign.hu" target="_blank">info@mindodesign.hu</a>
-        </div>
-         <div>
-          Telefon: <strong>+36 20 / 555 55 55</strong>
-        </div>
-      </div>
-      <div>vagy</div>
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="wow bounceInDown">
+  <div class="heading-contact">
+      <div class="col-lg-8 col-lg-offset-2">
+        <div class="wow bounceInDown">
           <div class="section-heading">
-            <h2>Írj nekünk itt!</h2>
+            <h2>Keress minket bátran!</h2>
             <i class="fa fa-2x fa-angle-down"></i>
           </div>
-          </div>
         </div>
       </div>
+      <div class="col-md-7 col-md-offset-5">
+        <table class="contact-details">
+          <tr>
+            <td>Email</td>
+            <td>
+              <div class="fa fa-envelope"></div>
+            </td>
+            <td><a href="mailto:info@mindodesign.hu" target="_blank">info@mindodesign.hu</a></td>
+          </tr>
+          <tr>
+            <td>Telefon</td>
+            <td>
+              <div class="fa fa-phone"></div>
+            </td>
+            <td><a href="tel:+36305241838">+36 30/ 52 41 838</a></td>
+          </tr>
+        </table>
+      </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-lg-offset-5">
+        <hr class="marginbot-50">
       </div>
     </div>
-    <div class="container">
-	    <div class="row">
-	      <div class="col-lg-2 col-lg-offset-5">
-	        <hr class="marginbot-50">
-	      </div>
-	    </div>
-		<div class="row wow fadeIn" data-wow-delay="0.1s" ng-controller="MailCtrl">
-		    <div class="col-lg-12">
-		        <div class="boxed-grey">
-		        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-	            <form id="contact-form" action="https://docs.google.com/forms/d/1iI1h7ClF0zawJyPW1tjkgllkKElk_ROMQYlzZoC91R0/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-	              <div class="col-md-3"></div>
-                  <div class="col-md-6 contact-form">
-                      <div class="form-group">
-                          <label for="name">Név</label>
-                              <div class="input-group">
-                                <span class="input-group-addon">
-                                  <span class="glyphicon glyphicon-user"></span>
-                                </span>
-                              <input type="text" name="entry.1789661940" ng-model="user.name" class="form-control" id="name" placeholder="Neved" required="required" />
-                            </div>
-                      </div>
-                      <div class="form-group">
-                          <label for="email">E-mail</label>
-                          <div class="input-group">
-                            <span class="input-group-addon">
-                              <span class="glyphicon glyphicon-envelope"></span>
-                            </span>
-                            <input type="email" name="entry.19308889" ng-model="user.email" class="form-control" id="email" placeholder="e-mail címed ahova válaszunkat várod" required="required" />
-                          </div>
-                      </div>
-                      <div class="form-group">
-                        <label for="name">Üzenet</label>
-                        <textarea name="entry.1781394370" id="message" ng-model="user.message" class="form-control" style="max-width: 550px;" rows="9" cols="25" required="required" placeholder="Írd meg nekünk kérdésed vagy kérésed és mi készséggel válaszolunk"></textarea>
-                      </div>
-                       <button type="submit" ng-click="submitModal()" class="btn btn-lg btn-warning btn-block" id="sendMail">
-                         <span class="glyphicon glyphicon-send"></span>
-                         Küldés
-                      </button>
-                  </div>
-	              	<div class="col-md-3"></div>
-	            </form>
-		        </div>
-		    </div>
-		</div> 
-	</div>
+    <div style="letter-spacing: 8pt;padding-bottom: 15px;">vagy írj nekünk itt</div>
+    <div class="row wow fadeIn" data-wow-delay="0.1s" ng-controller="MailCtrl">
+      <div class="col-lg-12">
+        <div class="boxed-grey">
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+          <div class="col-md-3 col-sm-0">
+
+          </div>
+          <div class="col-md-6 contact-form">
+            <form id="contact-form" action="https://docs.google.com/forms/d/1iI1h7ClF0zawJyPW1tjkgllkKElk_ROMQYlzZoC91R0/formResponse" method="post" target="hidden_iframe"
+                  onsubmit="submitted=true;">
+              <div class="form-group">
+                <label for="name">Név</label>
+
+                <div class="input-group">
+                              <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-user"></span>
+                              </span>
+                  <input type="text" name="entry.1789661940" ng-model="user.name" class="form-control" id="name" placeholder="Neved" required="required"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+
+                <div class="input-group">
+                          <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                          </span>
+                  <input type="email" name="entry.19308889" ng-model="user.email" class="form-control" id="email" placeholder="e-mail címed ahova válaszunkat várod"
+                         required="required"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Üzenet</label>
+                <textarea name="entry.1781394370" id="message" ng-model="user.message" class="form-control" rows="9" cols="25" required="required"
+                          placeholder="Írd meg nekünk kérdésed vagy kérésed és mi készséggel válaszolunk"></textarea>
+              </div>
+              <button type="submit" ng-click="submitModal()" class="btn btn-lg btn-warning btn-block" id="sendMail">
+                <span class="glyphicon glyphicon-send"></span>
+                Küldés
+              </button>
+            </form>
+          </div>
+          <div class="col-md-3 col-sm-0"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

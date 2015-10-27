@@ -33,7 +33,9 @@
     #custom-nav .container {
         padding-top: 10px;
         padding-bottom: 10px;
+        font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
         font-weight: bolder;
+        font-size: 12pt;
         -webkit-transition: padding-top .5s ease, padding-bottom .5s ease;
         -moz-transition: padding-top .5s ease, padding-bottom .5s ease;
         transition: padding-top .5s ease, padding-top .5s ease, padding-bottom .5s ease;

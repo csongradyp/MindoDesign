@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Italianno);
+@import url(https://fonts.googleapis.com/css?family=Euphoria+Script);
+@import url(https://fonts.googleapis.com/css?family=Montez);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.brand {
+  background:url('../../../assets/images/brand.png') no-repeat center center;
+  width: 100%;
+  height: 130px;
+  align-content: center;
+}
+
+.advices {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.font-samples .row {
+  padding-bottom: 50px;
+}
+
+.font-samples .elegant {
+  font-family: 'Tangerine', cursive;
+  font-size: 35pt;
+}
+
+.font-samples .written {
+  font-family: 'Italianno', cursive;
+  font-size: 35pt;
+}
+
+.font-samples .gothic {
+  font-family: 'aquilinetworegular';
+  font-size: 30pt;
+}
+
+.font-samples .vintage {
+  font-family: 'Euphoria Script', cursive;
+  font-size: 30pt;
+}
+
+.font-samples .penna {
+  font-family: 'Montez', cursive;
+  font-size: 30pt;
+}
+
+.font-samples .funny {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30pt;
+}
+
+.font-samples .happy {
+  font-family: 'blokletters_potloodpotlood';
+  font-size: 20pt;
+}
+
+.font-samples .fine {
+  font-family: 'bellotalight';
+  font-size: 25pt;
+}
+
+.font-samples .minimal {
+  font-family: 'caviar_dreamsregular';
+  font-size: 25pt;
+}
+
+.font-samples .typed {
+  font-family: 'Anonymous Pro';
+  font-size: 23pt;
+}

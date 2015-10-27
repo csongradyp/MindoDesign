@@ -5,11 +5,6 @@ angular.module('mindodesignApp')
   .value('duScrollOffset', 70)
   .controller('NavbarCtrl', function ($scope, $location, $document) {
     $scope.menu = [
-     {
-      'title': 'Szolgáltatások',
-      'link': '#responsive',
-      'spy' : 'responsive'
-    },
     {
       'title': 'Bemutatkozás',
       'link': '#intro',
@@ -19,6 +14,16 @@ angular.module('mindodesignApp')
       'title': 'Galéria',
       'link': '#gallery',
       'spy' : 'gallery'
+    },
+    {
+      'title': 'Javaslataink',
+      'link': '#advices',
+      'spy' : 'advices'
+    },
+    {
+      'title': 'Áraink',
+      'link': '#prices',
+      'spy' : 'prices'
     },
      {
       'title': 'Kapcsolat',
@@ -44,7 +49,7 @@ angular.module('mindodesignApp')
       } else {
           $('#custom-nav').removeClass('affix');
           $(".navbar-fixed-top").removeClass("top-nav-collapse");
-      }   
+      }
     });
 
   });

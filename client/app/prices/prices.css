@@ -1,0 +1,18 @@
+.prices {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.prices h4 {
+  line-height: 30pt;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.prices p {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+
+

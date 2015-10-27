@@ -1,6 +1,8 @@
 node_modules
 public
 .tmp
+/mindodesign.iml
+/.gitignore
 .idea
 client/bower_components
 dist

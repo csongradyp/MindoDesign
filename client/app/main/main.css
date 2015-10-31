@@ -1,4 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(//fonts.googleapis.com/css?family=Tangerine);
+@import url(//fonts.googleapis.com/css?family=Italianno);
+@import url(//fonts.googleapis.com/css?family=Euphoria+Script);
+@import url(//fonts.googleapis.com/css?family=Montez);
+@import url(//fonts.googleapis.com/css?family=Amatic+SC);
+@import url(//fonts.googleapis.com/css?family=Anonymous+Pro);
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -6,6 +12,16 @@ body {
   font-size: 12pt;
   line-height: 30px;
   letter-spacing: 1pt;
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+  from { opacity: 1; }
+  to   { opacity: 1; }
 }
 
 .thing-form {
@@ -71,13 +87,13 @@ body {
 }
 
 .hero {
-  background: url('../../assets/images/hero.jpg') no-repeat center center;
+  background: url('../../assets/images/hero.jpg') no-repeat center left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding: 165px 0 130px 0;
-  height: auto;
+  width: auto;
 }
 
 .hero .mindo {
@@ -116,7 +132,7 @@ body {
 }
 
 .unique p {
-  font-family: 'Tangerine', cursive;
+  font-family: 'Tangerine';
   text-align: center;
   line-height: 120%;
   padding: 0 10pt 0;
@@ -124,6 +140,9 @@ body {
   letter-spacing: 10pt;
   color: black;
 }
+
+@media screen and (max-width: 320px){.unique{display:none;}}
+@media screen and (max-width: 480px){.unique{display:none;}}
 
 .gallery-header p {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;

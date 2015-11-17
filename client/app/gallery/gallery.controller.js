@@ -56,14 +56,14 @@ angular.module('mindodesignApp')
       "orokUton": {
         "images": [
           "https://dl.dropboxusercontent.com/u/6057082/%C3%B6r%C3%B6k%20%C3%BAton/%C3%B6r%C3%B6k1.jpg",
-          "https://dl.dropboxusercontent.com/u/6057082/%C3%B6r%C3%B6k%20%C3%BAton/%C3%B6r%C3%B6k1.jpg",
-          "https://dl.dropboxusercontent.com/u/6057082/%C3%B6r%C3%B6k%20%C3%BAton/%C3%B6r%C3%B6k3.jpg",
           "https://dl.dropboxusercontent.com/u/6057082/%C3%B6r%C3%B6k%20%C3%BAton/%C3%B6r%C3%B6k4.jpg",
           "https://dl.dropboxusercontent.com/u/6057082/%C3%B6r%C3%B6k%20%C3%BAton/%C3%B6r%C3%B6k5.jpg",
+          "https://dl.dropboxusercontent.com/u/6057082/%C3%B6r%C3%B6k%20%C3%BAton/%C3%B6r%C3%B6k2.jpg",
+          "https://dl.dropboxusercontent.com/u/6057082/%C3%B6r%C3%B6k%20%C3%BAton/%C3%B6r%C3%B6k3.jpg",
           "https://dl.dropboxusercontent.com/u/6057082/%C3%B6r%C3%B6k%20%C3%BAton/%C3%B6r%C3%B6k6.jpg"
         ],
-        "title": "örök úton",
-        "description": 'Az “örök úton” megrendelő párja egyszerű meghívót szeretettek volna, amelyhez egy matt krémszínű papírt választottak. Több téma felvetődése után rátaláltunk egy kerékpárt ábrázoló képre, és tudták egyből, hogy ez az amit szeretnének. A közös és hosszú életük során eltöltött és rájuk váró gyakori kerékpártúráikra emlékeztetve, ifjú párként az előlapon egy skicces biciklin lettek ábrázolva. Díszítés nélküli meghívót képzeltek el, de egy pár szirommal szemben engedékenyebbek lettek, melyek lágyan rászállhattak a lapokra. A vendégkönyvön és mágneses köszöntő ajándékokon ismét feltűntek az őket ábrázoló rajzon.'
+        "title": "örök útazók",
+        "description": 'Az “örök útazók” megrendelő párja egyszerű meghívót szeretettek volna, amelyhez egy matt krémszínű papírt választottak. Több téma felvetődése után rátaláltunk egy kerékpárt ábrázoló képre, és tudták egyből, hogy ez az amit szeretnének. A közös és hosszú életük során eltöltött és rájuk váró gyakori kerékpártúráikra emlékeztetve, ifjú párként az előlapon egy skicces biciklin lettek ábrázolva. Díszítés nélküli meghívót képzeltek el, de egy pár szirommal szemben engedékenyebbek lettek, melyek lágyan rászállhattak a lapokra. A vendégkönyvön és mágneses köszöntő ajándékokon ismét feltűntek az őket ábrázoló rajzon.'
       },
       "utazasSzerelmesei": {
         "images": [
@@ -103,7 +103,7 @@ angular.module('mindodesignApp')
       $scope.title = galleries[$routeParams.galleryId].title;
       $scope.description = galleries[$routeParams.galleryId].description;
     } else if ($routeParams.galleryId) {
-      window.location.replace('/gallery');
+      window.location.replace('/');
     }
 
     $scope.$on('ngRepeatFinished', function (ngRepeatFinishedEvent) {

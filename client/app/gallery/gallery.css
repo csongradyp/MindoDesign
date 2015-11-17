@@ -29,16 +29,6 @@
   height: auto !important;
 }
 
-.description {
-  vertical-align: middle;
-  text-align: justify;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12pt;
-  line-height: 30px;
-  letter-spacing: 2px;
-  margin-right: 20px;
-}
-
 .mindo-footer {
   padding-top: 30px;
 }
@@ -107,18 +97,6 @@
     -webkit-column-count: 1;
     column-count: 1;
   }
-}
-
-.hover-zoom figure img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-
-.hover-zoom figure:hover img {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
 }
 
 .travellers-img {

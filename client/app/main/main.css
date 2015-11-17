@@ -11,7 +11,7 @@ body {
   text-align: justify;
   font-size: 12pt;
   line-height: 30px;
-  letter-spacing: 1pt;
+  /*letter-spacing: 1pt;*/
   -webkit-animation-delay: 0.1s;
   -webkit-animation-name: fontfix;
   -webkit-animation-duration: 0.1s;
@@ -20,8 +20,12 @@ body {
 }
 
 @-webkit-keyframes fontfix {
-  from { opacity: 1; }
-  to   { opacity: 1; }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .thing-form {
@@ -50,7 +54,7 @@ body {
   text-align: justify;
   font-size: 12pt;
   line-height: 30px;
-  letter-spacing: 2px;
+  /*letter-spacing: 2px;*/
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 20px;
@@ -141,12 +145,64 @@ body {
   color: black;
 }
 
-@media screen and (max-width: 320px){.unique{display:none;}}
-@media screen and (max-width: 480px){.unique{display:none;}}
+@media screen and (max-width: 320px) {
+  .unique {
+    display: none;
+  }
+
+  .hero {
+    background: url('../../assets/images/hero_small.jpg') no-repeat center left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 165px 0 130px 0;
+    width: auto;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .unique {
+    display: none;
+  }
+
+  .hero {
+    background: url('../../assets/images/hero_small.jpg') no-repeat center left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0px 0 0px 0;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    background: url('../../assets/images/hero_small.jpg') no-repeat center left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 165px 0 130px 0;
+    width: auto;
+  }
+}
+
 
 .gallery-header p {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size: 16pt;
   margin-top: 20pt;
   margin-bottom: 20pt;
+}
+
+.description {
+  vertical-align: middle;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  line-height: 30px;
+  margin-right: 20px;
 }

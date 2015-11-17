@@ -86,7 +86,7 @@ angular.module('mindodesignApp')
               modal: {
                 dismissable: false,
                 title: 'Levél elküldve',
-                html: '<p><strong>Kösztönjük leveledet! Hamarosan válaszolunk.</strong></p>',
+                html: '<p><strong>Köszönjük leveledet! Hamarosan válaszolunk.</strong></p>',
                 buttons: [{
                   classes: 'btn-success',
                   text: 'Ok',

@@ -2,7 +2,7 @@
   "name": "mindodesign",
   "version": "0.0.0",
   "dependencies": {
-    "angular": ">=1.2.*",
+    "angular": "~1.4.8",
     "json3": "~3.3.1",
     "es5-shim": "~3.0.1",
     "bootstrap": "~3.1.1",
@@ -14,15 +14,24 @@
     "angular-scroll": "0.7.2",
     "wow": "1.1.2",
     "font-awesome": ">=4.1.0",
-    "lodash": "~2.4.1",
+    "lodash": "~3.10.1",
+    "jquery": "~2.1.4",
+    "jquery-bridget": "~1.1.0",
+    "angular-masonry": "~0.13.0",
     "animate-css": "animate-css#~3.4.0",
-    "hover" : "2.0.2",
-    "lightbox2" : "2.8.1",
-    "jquery-awesome-cursor" : "0.1.2",
-    "webfontloader" : "1.6.10"
+    "magnific-popup": "~1.0.0",
+    "webfontloader": "1.6.10"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",
     "angular-scenario": ">=1.2.*"
+  },
+  "overrides": {
+    "outlayer": {
+      "main": [
+        "item.js",
+        "outlayer.js"
+      ]
+    }
   }
 }

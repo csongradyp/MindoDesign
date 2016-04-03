@@ -6,7 +6,8 @@ angular.module('mindodesignApp', [
   'ngSanitize',
   'ngRoute',
   'ui.bootstrap',
-  'duScroll'
+  'duScroll',
+  'wu.masonry'
 ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
@@ -14,6 +15,6 @@ angular.module('mindodesignApp', [
         redirectTo: '/'
       });
 
-    $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(false);
 
   });

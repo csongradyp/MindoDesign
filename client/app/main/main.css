@@ -1,17 +1,10 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
-@import url(//fonts.googleapis.com/css?family=Tangerine);
-@import url(//fonts.googleapis.com/css?family=Italianno);
-@import url(//fonts.googleapis.com/css?family=Euphoria+Script);
-@import url(//fonts.googleapis.com/css?family=Montez);
-@import url(//fonts.googleapis.com/css?family=Amatic+SC);
-@import url(//fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url(//fonts.googleapis.com/css?family=Open+Sans|Tangerine|Italianno|Euphoria+Script|Montez|Amatic+SC|Anonymous+Pro|Muli);
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Muli', sans-serif;
   text-align: justify;
   font-size: 12pt;
   line-height: 30px;
-  /*letter-spacing: 1pt;*/
   -webkit-animation-delay: 0.1s;
   -webkit-animation-name: fontfix;
   -webkit-animation-duration: 0.1s;
@@ -81,9 +74,17 @@ body {
 .footer {
   position: relative;
   text-align: center;
-  padding: 30px 0;
   margin-top: 70px;
   border-top: 1px solid #E5E5E5;
+}
+
+.subfooter p {
+    margin-bottom: 0;
+}
+
+.subfooter {
+    text-align: center;
+    font-size: 8pt;
 }
 
 .navbar-text {
@@ -96,7 +97,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 165px 0 130px 0;
+  padding: 265px 0 130px 0;
   width: auto;
 }
 
@@ -190,7 +191,6 @@ body {
   }
 }
 
-
 .gallery-header p {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size: 16pt;
@@ -201,8 +201,203 @@ body {
 .description {
   vertical-align: middle;
   text-align: justify;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12pt;
+  font-family: 'Muli', sans-serif;
+  font-size: 13pt;
   line-height: 30px;
   margin-right: 20px;
+}
+
+.travellers-img {
+    background: url('../../assets/images/travellers.jpg') no-repeat center center;
+}
+
+.road-img {
+    background: url('../../assets/images/road.jpg') no-repeat center center;
+}
+
+.strass-img {
+    background: url('../../assets/images/strass.jpg') no-repeat center center;
+}
+
+.bounded-img {
+    background: url('../../assets/images/bound.jpg') no-repeat center center;
+}
+
+.embraced-img {
+    background: url('../../assets/images/embraced.jpg') no-repeat center center;
+}
+
+.wedded-img {
+    background: url('../../assets/images/wedded.jpg') no-repeat center center;
+}
+
+.typo-img {
+    background: url('../../assets/images/typo.jpg') no-repeat center center;
+}
+
+.draw-img {
+    background: url('../../assets/images/draw.jpg') no-repeat center center;
+}
+
+.view {
+    width: 350px;
+    height: 255px;
+    margin: 5px;
+    float: left;
+    border: 5px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    /*background: #fff url('../../assets/images/meghivo.jpg') no-repeat center center*/
+}
+
+.view .mask, .view .content {
+    width: 350px;
+    height: 255px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
+.view .img {
+    display: block;
+    position: relative
+}
+
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+.view-first img {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.view-first .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background-color: rgba(100, 32, 61, .7);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.view-first h2 {
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.view-first p {
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -o-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.view-first:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+.view-first a {
+    color: black;
+    font-weight: bold;
+}
+
+.view-first:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.view-first:hover p {
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    -ms-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.view-first:hover a.info {
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    -ms-transition-delay: 0.2s;
+    transition-delay: 0.2s;
 }

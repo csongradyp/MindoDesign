@@ -12,8 +12,8 @@ angular.module('mindodesignApp')
     },
      {
       'title': 'Galéria',
-      'link': '#gallery',
-      'spy' : 'gallery'
+      'link': '#galleries',
+      'spy' : '#galleries'
     },
     {
       'title': 'Javaslataink',

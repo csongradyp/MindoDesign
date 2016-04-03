@@ -11,7 +11,7 @@ angular.module('mindodesignApp')
     new WOW().init();
     WebFont.load({
       google: {
-        families: ['Tangerine', 'Italianno', 'Euphoria Script', 'Montez', 'Amatic+SC', 'Anonymous+Pro']
+        families: ['Open+Sans', 'Tangerine', 'Italianno', 'Euphoria+Script', 'Montez', 'Amatic+SC', 'Anonymous+Pro']
       }
     });
   });
